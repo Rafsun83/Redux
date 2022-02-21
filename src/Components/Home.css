@@ -1,0 +1,27 @@
+.cart{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    align-items: center;
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 11px;
+    border-radius: 5px;
+}
+.carticon{
+    width: 50px;
+    position: absolute;
+    right: 2%;
+    top: 14px;
+}
+.notify{
+   position: absolute;
+    right: 1.5%;
+    top: 8px;
+    background: red;
+    padding: 2px;
+    color: white;
+    z-index: 1;
+    border-radius: 50%;
+    width: 22px;
+}
